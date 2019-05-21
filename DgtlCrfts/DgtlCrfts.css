@@ -9,7 +9,6 @@ a {
   color: #B0B0B0;
 }
 
-
 /*  CSS for hero image section  */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
@@ -21,7 +20,7 @@ a {
   background-size: cover;
   position: relative;
   margin: auto;
-  margin-top: 2%;;
+  margin-top: 2.5%;
   padding-right: 10%;
 }
 
@@ -59,36 +58,38 @@ a {
 }
 
 .subtitle-text {
-  margin: 20px;
+  text-align: center;
   width: 400px;
   font-size: 20px;
   font-weight: bolder;
 }
 
 .down-arrow {
-  position: relative;
-  margin-bottom: -100px;
+  position: absolute;
+  padding-top: 50px;
+  margin: auto;
 }
 
 .services {
   position: relative;
   width: 80%;
-  height: 48%;
+  height: 520px;
   margin: auto;
   background-color: #FDFDFF;
 }
 
 .service-title {
   margin: 0;
-  padding-top: 60px;
+  padding-top: 40px;
   text-align: center;
   color: #515151;
 }
 
 .article-container {
+  position: relative;
   width: 82%;
-  height: 500px;
   padding-top: 15px;
+  padding-bottom: 50px;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -110,6 +111,7 @@ article h1 {
   font-size: 32px;
   text-align: center;
 }
+
 article p {
   font-size: 14px;
   font-weight: 400;
@@ -134,8 +136,7 @@ article p {
   display: inline-block;
   font-size: 20px;
   padding-right: 50px;
-  padding-top: 30px;
-  
+  padding-top: 30px; 
 }
 
 .copyright {

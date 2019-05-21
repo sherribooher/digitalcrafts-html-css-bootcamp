@@ -87,24 +87,22 @@ h1 {
 }
 
 #end-paragraph {
-  float: left;
+  display: block;
   width: 675px;
-  margin-left: 100px;
+  padding-left: 15%;
 }
 
 #bottom-nav {
+  display: inline-block;
   font-size: 19px;
   color: gray;
-  float: left;
 }
 
 #bottom-nav ul.nav {
-  padding: 0;
+  display: block;
   list-style: none;
   margin-top: 2px;
-  width: 250px;
-  padding-left: 13%;
-  position: relative;
+  padding: 0;
 }
 
 #bottom-nav ul.nav li {
@@ -113,8 +111,7 @@ h1 {
 }
 
 #footer {
-  clear: both;
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 20px;
   text-align: center;
   color: gray;
