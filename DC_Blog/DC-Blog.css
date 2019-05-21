@@ -1,0 +1,130 @@
+
+body {
+  background-color: #0F0F0F;
+  font-family: Times, serif;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a.button-link {
+  color: #DDF3F9;
+}
+
+#container {
+  background-color: #F0F0F0;
+  width: 70%;
+  height: 100%;
+  margin: auto; 
+}
+
+#dc-brand {
+  margin-left: 85px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+#dc-brand img, h1 {
+  display: inline-block;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+#top-nav {
+  font-size: 19px;
+  color: gray;
+  float: right;
+  padding-right: 80px;
+  padding-top: 35px;
+}
+
+#top-nav ul.nav {
+  list-style: none;
+  margin-left: 75px;
+}
+
+#top-nav ul.nav li {
+  padding-left: 15px;
+  display: inline-block;
+}
+
+#headline {
+  width: 325px;
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+#dateline {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.date-text {  
+  color: gray;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.follow {
+  width: 150px;
+  height: 25px;
+  background-color: #4C98C3;
+  color: #DDF3F9;
+}
+
+#main-content {
+  width: 675px;
+  margin: auto;
+  font-family: Times, serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+#end-paragraph {
+  float: left;
+  width: 675px;
+  margin-left: 100px;
+}
+
+#bottom-nav {
+  font-size: 19px;
+  color: gray;
+  float: left;
+}
+
+#bottom-nav ul.nav {
+  padding: 0;
+  list-style: none;
+  margin-top: 2px;
+  width: 250px;
+  padding-left: 13%;
+  position: relative;
+}
+
+#bottom-nav ul.nav li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+#footer {
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
