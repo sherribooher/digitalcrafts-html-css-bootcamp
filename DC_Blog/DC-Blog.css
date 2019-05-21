@@ -14,6 +14,7 @@ a.button-link {
 }
 
 #container {
+  position: relative;
   background-color: #F0F0F0;
   width: 70%;
   height: 100%;
@@ -87,12 +88,13 @@ h1 {
 }
 
 #end-paragraph {
-  display: block;
+  position: relative;
   width: 675px;
-  padding-left: 15%;
+  margin: auto;
 }
 
 #bottom-nav {
+  position: absolute;
   display: inline-block;
   font-size: 19px;
   color: gray;
