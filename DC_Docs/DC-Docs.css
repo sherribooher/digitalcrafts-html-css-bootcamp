@@ -1,0 +1,139 @@
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+#main-container {
+  position: relative;
+  width: 1100px;
+  height: 800px;
+  margin: auto;
+  background-color: white;
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 800px;
+  background-color: #555555;
+  float: left;
+}
+
+.sidebar-title {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sidebar-search {
+  width: 160px;
+  height: 15px;
+  background-color: #555555;
+  margin-left: 40px;
+  padding-left: 5px;
+  border: 2px #c3c3c3 solid;
+  color: #c3c3c3;
+}
+
+.sidebar-nav {
+  padding-top: 40px;
+}
+
+.nav-links,
+.nav-links li,
+a {
+  list-style: none;
+  padding-bottom: 30px;
+  color: #c3c3c3;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.sidebar-footer {
+  color: #c3c3c3;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 275px;
+}
+
+.content {
+  position: absolute;
+  width: 700px;
+  color: black;
+  padding-left: 27%;
+}
+
+.content-header {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.welcome-line {
+  color: #848484;
+  font-size: 12px;
+}
+
+.header-title {
+  display: inline;
+  padding-left: 10px;
+}
+
+.article-title {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.article-text {
+  font-size: 15px;
+}
+
+.quote-box {
+  height: 120px;
+  background-color: lightgray;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-left: 6px solid darkgray;
+  position: relative;
+}
+
+blockquote {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  text-indent: 30px;
+  line-height: 1.5;
+  padding-top: 30px;
+}
+
+cite {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  float: right;
+  padding-right: 60px;
+}
+
+blockquote:before {
+  margin-left: -80px;
+  position: absolute;
+  font-family: serif;
+  font-size: 4em;
+  line-height: 0.5;
+  content: "\201C";
+}
+blockquote:after {
+  margin-top: -10px;
+  font-family: serif;
+  position: absolute;
+  font-size: 4em;
+  line-height: 1.5;
+  content: "\201C";
+}
